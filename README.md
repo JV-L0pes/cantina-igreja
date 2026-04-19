@@ -1,6 +1,6 @@
 # Cantina Igreja
 
-Sistema simples de gestao de vendas para a cantina da igreja.
+Sistema simples de gestão de vendas para a cantina da igreja.
 
 ## Objetivo
 
@@ -14,11 +14,11 @@ Controlar produtos, vendas, status de pagamento e estoque de forma simples, intu
 
 ## Arquitetura
 
-O projeto segue um monolito modular com separacao clara entre frontend e backend.
+O projeto segue um monólito modular com separação clara entre frontend e backend.
 
 - `frontend/`: interface web organizada por feature
-- `backend/`: API e regras de negocio organizadas por modulo
-- `docs/`: documentacao do projeto
+- `backend/`: API e regras de negócio organizadas por módulo
+- `docs/`: documentação do projeto
 
 ## Estrutura inicial
 
@@ -67,9 +67,9 @@ cantina-igreja/
 
 ## Diretrizes
 
-- Clean Code como padrao de implementacao
-- Conventional Commits como padrao de versionamento
-- Responsabilidade de negocio concentrada no backend
+- Clean Code como padrão de implementação
+- Conventional Commits como padrão de versionamento
+- Responsabilidade de negócio concentrada no backend
 - Frontend orientado por features com contextos locais quando fizer sentido
 
 ## Conventional Commits
@@ -81,10 +81,10 @@ Exemplos:
 - `chore: configure frontend linting`
 - `docs: describe project architecture`
 
-## Proximos passos
+## Próximos passos
 
 1. Inicializar o frontend com Vite e React + TypeScript
 2. Configurar Tailwind CSS e shadcn/ui
 3. Inicializar o backend com FastAPI
-4. Configurar PostgreSQL e migracoes
-5. Implementar os modulos `products`, `sales` e `dashboard`
+4. Configurar PostgreSQL e migrações
+5. Implementar os módulos `products`, `sales` e `dashboard`
